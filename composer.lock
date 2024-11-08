@@ -1,0 +1,84 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "73237b2d13fbd673a8ec8eb715c99784",
+    "packages": [
+        {
+            "name": "divejusty/chelona",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/divejusty/Chelona.git",
+                "reference": "c78ed94b3911ae6b450ac277fceb627d54ab37b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/divejusty/Chelona/zipball/c78ed94b3911ae6b450ac277fceb627d54ab37b5",
+                "reference": "c78ed94b3911ae6b450ac277fceb627d54ab37b5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.64",
+                "phpunit/phpunit": "^9"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chelona\\": "src/Chelona"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "all": [
+                    "composer cs",
+                    "composer test"
+                ],
+                "cs": [
+                    "./vendor/bin/php-cs-fixer fix src"
+                ],
+                "test": [
+                    "./vendor/bin/phpunit tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Wies"
+                }
+            ],
+            "description": "Chelona PHP Framework",
+            "support": {
+                "source": "https://github.com/divejusty/Chelona/tree/develop",
+                "issues": "https://github.com/divejusty/Chelona/issues"
+            },
+            "time": "2024-11-08T15:06:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "divejusty/chelona": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.3"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

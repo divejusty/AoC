@@ -1,0 +1,25 @@
+{
+    "name": "divejusty/advent-of-code",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Divejusty\\AdventOfCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Justin Wies",
+            "email": "justin@goedemiddag.nl"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/divejusty/chelona"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "divejusty/chelona": "dev-develop"
+    }
+}
